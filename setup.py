@@ -53,8 +53,8 @@ setup(name='update_test',
       # entry_points={
       #     'console_scripts': [
       #         'ezcalour = ezcalour_module.ezcalour:main']},
-      install_requires=[
-          'calour'],
+      # install_requires=[
+      #     'calour'],
       extras_require={'test': ["nose", "pep8", "flake8"],
                       'coverage': ["coverage"],
                       'doc': ["Sphinx >= 1.4"]}

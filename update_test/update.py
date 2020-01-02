@@ -13,6 +13,7 @@ __version__ = "0.1"
 def generic(name):
 	print('ooga')
 	subprocess.run('ls')
+	subprocess.run(['pip','install','--update','git+git://github.com/amnona/update_test.gut'])
 	while True:
 		print('pita')
 		time.sleep(1)
